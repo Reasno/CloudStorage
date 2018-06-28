@@ -22,6 +22,9 @@ cloudstorage:
         # optional
         prefix: subfolder-name
         url: https://s3.eu-central-1.amazonaws.com
+        
+        # only needed if using minio
+        use_path_style_endpoint: true
 ```
 
 ### Azure Blobstorage
